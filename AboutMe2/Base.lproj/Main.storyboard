@@ -23,6 +23,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="kU4-i2-zv0">
+                                <rect key="frame" x="531" y="28" width="49" height="49"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91m-wg-xBm">
+                                <rect key="frame" x="531" y="28" width="49" height="49"/>
+                                <connections>
+                                    <segue destination="Dcr-YE-Fad" kind="show" id="yEn-Vk-X9j"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -49,6 +58,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="aFe-Rg-eyK">
+                                <rect key="frame" x="538" y="28" width="42" height="40"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbC-dd-vL5">
+                                <rect key="frame" x="536" y="28" width="46" height="40"/>
+                                <connections>
+                                    <segue destination="Dcr-YE-Fad" kind="show" id="CFb-Op-Obm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -75,6 +93,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="18i-GA-GrO">
+                                <rect key="frame" x="552" y="28" width="48" height="44"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7q-qM-qzn">
+                                <rect key="frame" x="552" y="28" width="46" height="44"/>
+                                <connections>
+                                    <segue destination="Dcr-YE-Fad" kind="show" id="hZa-Vh-Nuc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -145,6 +172,12 @@
                                     <segue destination="Irt-1e-tih" kind="show" id="kyL-oJ-J6i"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(The home picture will bring you back)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1VJ-IW-z2Q">
+                                <rect key="frame" x="154" y="206" width="293" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -171,6 +204,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="z8M-MR-4da">
+                                <rect key="frame" x="529" y="28" width="51" height="49"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeL-62-9FH">
+                                <rect key="frame" x="529" y="28" width="51" height="49"/>
+                                <connections>
+                                    <segue destination="Dcr-YE-Fad" kind="show" id="fgI-pp-Mdj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -180,4 +222,10 @@
             <point key="canvasLocation" x="964" y="1085"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="HomeIcon" width="626" height="626"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hZa-Vh-Nuc"/>
+    </inferredMetricsTieBreakers>
 </document>
