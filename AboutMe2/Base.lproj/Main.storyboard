@@ -3,12 +3,63 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Facts About Me-->
+        <!--Picture Gallery Controller-->
+        <scene sceneID="beK-RG-IQy">
+            <objects>
+                <viewController id="7WW-Fm-ZDr" customClass="PictureGalleryController" customModule="AboutMe2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P93-Hc-6k3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oyz-ev-eBD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dij-Hf-1G5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.23 AM #3" translatesAutoresizingMaskIntoConstraints="NO" id="J7c-rO-vmp">
+                                <rect key="frame" x="60" y="253" width="495" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.21 AM" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-Ug-vGF">
+                                <rect key="frame" x="60" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.21 AM #2" translatesAutoresizingMaskIntoConstraints="NO" id="k1P-vZ-vts">
+                                <rect key="frame" x="315" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.21 AM #3" translatesAutoresizingMaskIntoConstraints="NO" id="t1A-yN-AYV">
+                                <rect key="frame" x="60" y="379" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.23 AM #2" highlightedImage="Photo on 10-5-16 at 8.21 AM #3" translatesAutoresizingMaskIntoConstraints="NO" id="SP3-T0-rHa">
+                                <rect key="frame" x="315" y="379" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.23 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Kxk-Dj-yhQ">
+                                <rect key="frame" x="60" y="126" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 10-5-16 at 8.22 AM" translatesAutoresizingMaskIntoConstraints="NO" id="nay-zI-eek">
+                                <rect key="frame" x="315" y="126" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackArrow" translatesAutoresizingMaskIntoConstraints="NO" id="k5K-Ne-gYV">
+                                <rect key="frame" x="259" y="515" width="69" height="59"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsP-4i-OFf">
+                                <rect key="frame" x="259" y="515" width="69" height="59"/>
+                                <connections>
+                                    <segue destination="HAp-bu-LbD" kind="show" id="qdy-jW-aeX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9By-Ua-QBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907" y="-530"/>
+        </scene>
+        <!--Facts About Me Controller-->
         <scene sceneID="dMH-TK-EWz">
             <objects>
-                <viewController id="HAp-bu-LbD" customClass="FactsAboutMe" sceneMemberID="viewController">
+                <viewController id="HAp-bu-LbD" customClass="FactsAboutMeController" customModule="AboutMe2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h08-YZ-Ofi"/>
                         <viewControllerLayoutGuide type="bottom" id="NMU-3L-TFx"/>
@@ -18,7 +69,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Facts About Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC6-Rd-Y1V">
-                                <rect key="frame" x="213" y="20" width="175" height="30"/>
+                                <rect key="frame" x="213" y="60" width="175" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -32,18 +83,44 @@
                                     <segue destination="Dcr-YE-Fad" kind="show" id="yEn-Vk-X9j"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ti1-hw-Lr4">
+                                <rect key="frame" x="168" y="104" width="264" height="173"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9B-vx-hx9">
+                                <rect key="frame" x="226" y="319" width="149" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Picture Gallery"/>
+                                <connections>
+                                    <segue destination="7WW-Fm-ZDr" kind="show" id="cY1-gk-3s9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(Text)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjM-6n-4zh">
+                                <rect key="frame" x="0.0" y="361" width="600" height="208"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="NMU-3L-TFx" firstAttribute="top" secondItem="EjM-6n-4zh" secondAttribute="bottom" constant="31" id="Typ-zL-lMk"/>
+                            <constraint firstItem="EjM-6n-4zh" firstAttribute="leading" secondItem="mdR-7p-nvL" secondAttribute="leadingMargin" constant="-20" id="Zlw-bD-Klp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EjM-6n-4zh" secondAttribute="trailing" constant="-20" id="i1N-1o-6ca"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="factsText" destination="EjM-6n-4zh" id="nQu-cF-dyc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tur-4l-cO0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1907" y="418"/>
         </scene>
-        <!--My Hobbies-->
+        <!--My Hobbies Controller-->
         <scene sceneID="lHk-tG-3ek">
             <objects>
-                <viewController id="djf-ZL-JDz" customClass="MyHobbies" sceneMemberID="viewController">
+                <viewController id="djf-ZL-JDz" customClass="MyHobbiesController" customModule="AboutMe2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iPS-iM-txC"/>
                         <viewControllerLayoutGuide type="bottom" id="wy7-vp-PUC"/>
@@ -111,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="970" y="-530"/>
         </scene>
-        <!--Favorite Movie-->
+        <!--Favorite Movie Controller-->
         <scene sceneID="eTE-ws-hFd">
             <objects>
-                <viewController id="Irt-1e-tih" customClass="FavoriteMovie" sceneMemberID="viewController">
+                <viewController id="Irt-1e-tih" customClass="FavoriteMovieController" customModule="AboutMe2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="57A-zV-ztf"/>
                         <viewControllerLayoutGuide type="bottom" id="Eyt-Km-goo"/>
@@ -222,10 +299,10 @@
             </objects>
             <point key="canvasLocation" x="964" y="418"/>
         </scene>
-        <!--Favorite Food-->
+        <!--Favorite Food Controller-->
         <scene sceneID="Su3-Rk-WsM">
             <objects>
-                <viewController id="g6u-7x-097" customClass="FavoriteFood" sceneMemberID="viewController">
+                <viewController id="g6u-7x-097" customClass="FavoriteFoodController" customModule="AboutMe2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uap-C5-ju4"/>
                         <viewControllerLayoutGuide type="bottom" id="PCB-bL-wdB"/>
@@ -259,13 +336,23 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BackArrow" width="521" height="326"/>
         <image name="Friends" width="640" height="451"/>
         <image name="HomeIcon" width="626" height="626"/>
+        <image name="Photo on 10-5-16 at 8.21 AM" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.21 AM #2" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.21 AM #3" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.22 AM" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.23 AM" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.23 AM #2" width="1080" height="720"/>
+        <image name="Photo on 10-5-16 at 8.23 AM #3" width="1080" height="720"/>
+        <image name="Picture" width="1080" height="720"/>
         <image name="Programming" width="500" height="334"/>
         <image name="Ultimate Frisbee" width="910" height="417"/>
         <image name="Video Games" width="640" height="350"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CFb-Op-Obm"/>
+        <segue reference="yEn-Vk-X9j"/>
+        <segue reference="qdy-jW-aeX"/>
     </inferredMetricsTieBreakers>
 </document>

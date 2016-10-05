@@ -7,3 +7,10 @@
 //
 
 import UIKit
+
+class FavoriteMovieController: UIViewController
+{
+    override func viewDidLoad() {
+    
+    }
+}

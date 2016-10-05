@@ -7,3 +7,10 @@
 //
 
 import UIKit
+
+class FavoriteFoodController: UIViewController
+{
+    override func viewDidLoad() {
+        
+    }
+}

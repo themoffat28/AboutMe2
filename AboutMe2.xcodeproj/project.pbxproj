@@ -16,6 +16,7 @@
 		C91200B11DA2AC9D00A3DCE0 /* MyHobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91200B01DA2AC9D00A3DCE0 /* MyHobbies.swift */; };
 		C91200B41DA2AD8700A3DCE0 /* FavoriteFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91200B31DA2AD8700A3DCE0 /* FavoriteFood.swift */; };
 		C91200B61DA2AE3900A3DCE0 /* FavoriteMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91200B51DA2AE3900A3DCE0 /* FavoriteMovie.swift */; };
+		C9D6195C1DA54D92004300EC /* PictureGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6195B1DA54D92004300EC /* PictureGallery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C91200B01DA2AC9D00A3DCE0 /* MyHobbies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHobbies.swift; sourceTree = "<group>"; };
 		C91200B31DA2AD8700A3DCE0 /* FavoriteFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteFood.swift; sourceTree = "<group>"; };
 		C91200B51DA2AE3900A3DCE0 /* FavoriteMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteMovie.swift; sourceTree = "<group>"; };
+		C9D6195B1DA54D92004300EC /* PictureGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureGallery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C91200B01DA2AC9D00A3DCE0 /* MyHobbies.swift */,
 				C91200B31DA2AD8700A3DCE0 /* FavoriteFood.swift */,
 				C91200B51DA2AE3900A3DCE0 /* FavoriteMovie.swift */,
+				C9D6195B1DA54D92004300EC /* PictureGallery.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				C91200B11DA2AC9D00A3DCE0 /* MyHobbies.swift in Sources */,
 				C91200781DA295E800A3DCE0 /* ViewController.swift in Sources */,
 				C91200B61DA2AE3900A3DCE0 /* FavoriteMovie.swift in Sources */,
+				C9D6195C1DA54D92004300EC /* PictureGallery.swift in Sources */,
 				C91200761DA295E800A3DCE0 /* AppDelegate.swift in Sources */,
 				C91200AF1DA2AAE000A3DCE0 /* FactsAboutMe.swift in Sources */,
 				C91200B41DA2AD8700A3DCE0 /* FavoriteFood.swift in Sources */,
