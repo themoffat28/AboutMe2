@@ -139,7 +139,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9B-vx-hx9">
                                 <rect key="frame" x="226" y="319" width="149" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Picture Gallery"/>
+                                <state key="normal" title="Picture Gallery">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="126" y="313" width="149" height="40"/>
                                 </variation>
@@ -185,6 +187,7 @@
                         <viewControllerLayoutGuide type="bottom" id="AdW-95-Pb3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oGb-gf-xbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Went to the corner shop - bought 4 corners.&quot;      " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbs-9o-3Te">
@@ -619,6 +622,7 @@
                         <viewControllerLayoutGuide type="bottom" id="0NP-SI-cCN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JGA-Up-3qe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="o4g-aN-1BC">
@@ -691,7 +695,7 @@
         <image name="img-thing" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cGG-P2-5fS"/>
         <segue reference="l0O-OX-fp5"/>
+        <segue reference="yEn-Vk-X9j"/>
     </inferredMetricsTieBreakers>
 </document>
